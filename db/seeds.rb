@@ -1,10 +1,14 @@
 puts 'Creating restaurants...'
 Restaurant.create!({
-  name: "Le Dindon en Laisse",
-  address: "18 Rue Beautreillis, 75004 Paris, France"
+  name: "Tagliatella",
+  address: "Madrid, Spain"
 })
 Restaurant.create!({
-  name: "Neuf et Voisins",
-  address: "Van Arteveldestraat 1, 1000 Brussels, Belgium"
+  name: "La Rollerie",
+  address: "Madrid"
+})
+Restaurant.create!({
+  name: "Zen Bambu",
+  address: "Madrid"
 })
 puts 'Finished!'
